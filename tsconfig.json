@@ -17,8 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "baseUrl": "."
   },
+  "extends": "./base-tsconfig.json",
   "include": [
     "src"
   ]

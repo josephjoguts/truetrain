@@ -1,0 +1,36 @@
+.header .title {
+  z-index: -1;
+  padding: 90px 132px;
+  background: #f5f5f5;
+  border-bottom: 2px solid black;
+}
+.header .title .title-clock-fix {
+  display: flex;
+}
+.header .title .title-clock-fix h1 {
+  margin-top: 180px;
+  max-width: 1182px;
+  max-height: 288px;
+  font-family: Bebas Neue;
+  font-size: 96px;
+  line-height: 144px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+}
+.header .title .title-clock-fix .clock {
+  max-width: 432px;
+}
+.header .title .train {
+  margin-top: 350px;
+  margin-bottom: -160px;
+  margin-left: -132px;
+}
+.header .phone {
+  display: block;
+  max-width: 411px;
+  margin-top: -425px;
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=header.css.map */

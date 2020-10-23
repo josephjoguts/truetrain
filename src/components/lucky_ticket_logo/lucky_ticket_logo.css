@@ -1,0 +1,11 @@
+.LuckyTicketLogo {
+  background: #F2C94C;
+  width: 111px;
+  height: 111px;
+  border-radius: 111px;
+}
+.LuckyTicketLogo img {
+  transform: translate(50px, -50px);
+}
+
+/*# sourceMappingURL=lucky_ticket_logo.css.map */
