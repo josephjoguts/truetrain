@@ -24,9 +24,15 @@
 .header .title .train {
   margin-top: 350px;
   margin-bottom: -160px;
-  margin-left: -132px;
+  margin-left: 10%;
+  overflow: hidden;
+}
+.header .title .train_ride {
+  transition: transform 5s ease;
+  transform: translate(-80%);
 }
 .header .phone {
+  z-index: 10;
   display: block;
   max-width: 411px;
   margin-top: -425px;

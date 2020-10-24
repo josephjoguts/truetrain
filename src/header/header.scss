@@ -4,7 +4,6 @@
     padding: 90px 132px;
     background: #f5f5f5;
     border-bottom: 2px solid black;
-
     .title-clock-fix {
       display: flex;
       h1 {
@@ -25,10 +24,16 @@
     .train {
       margin-top: 350px;
       margin-bottom: -160px;
-      margin-left: -132px;
+      margin-left: 10%;
+      overflow: hidden;
+    }
+    .train_ride {
+      transition: transform 5s ease;
+      transform: translate(-80%);
     }
   }
   .phone {
+    z-index: 10;
     display: block;
     max-width: 411px;
     margin-top: -425px;

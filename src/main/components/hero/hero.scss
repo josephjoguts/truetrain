@@ -1,0 +1,32 @@
+.hero {
+  margin-top: 220px;
+  background: #333333;
+  max-width: 1920px;
+  .comrades_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text_wrapper {
+      margin-left: 195px;
+      h1 {
+        margin-left: 200px;
+        max-width: 629px;
+        font-family: Bebas Neue;
+        font-size: 96px;
+        line-height: 115px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #f5f5f5;
+      }
+      .hand_wrapper {
+        margin-top: 169px;
+        .hand {
+          margin-left: 58px;
+        }
+      }
+    }
+  }
+  .card {
+    margin: 400px auto 0 auto;
+  }
+}
