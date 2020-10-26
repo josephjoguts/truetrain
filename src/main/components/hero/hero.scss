@@ -1,6 +1,10 @@
 .hero {
   margin-top: 220px;
+  height: 3000px;
   background: #333333;
+  background-image: url("hero_ellipse_background.svg");
+  background-repeat: no-repeat;
+  background-position: left 50% top 20%;
   max-width: 1920px;
   .comrades_wrapper {
     display: flex;
@@ -27,6 +31,14 @@
     }
   }
   .card {
-    margin: 400px auto 0 auto;
+    margin: 640px auto 0 auto;
+  }
+  .Lenin {
+    overflow: hidden;
+    transform: -100px;
+  }
+  .LeninShow {
+    transform: translateY(-200px);
+    transition: transform 500ms ease;
   }
 }

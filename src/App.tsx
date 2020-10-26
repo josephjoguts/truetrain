@@ -6,12 +6,7 @@ import LuckyTicketLogo from "src/components/lucky_ticket_logo";
 import Hero from "./main/components/hero";
 import Hero_card from "./main/components/hero/card";
 function App() {
-  return (
-    <div>
-      <Header />
-      <Hero />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;

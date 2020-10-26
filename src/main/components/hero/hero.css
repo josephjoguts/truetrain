@@ -1,0 +1,46 @@
+.hero {
+  margin-top: 220px;
+  height: 3000px;
+  background: #333333;
+  background-image: url("hero_ellipse_background.svg");
+  background-repeat: no-repeat;
+  background-position: left 50% top 20%;
+  max-width: 1920px;
+}
+.hero .comrades_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .comrades_wrapper .text_wrapper {
+  margin-left: 195px;
+}
+.hero .comrades_wrapper .text_wrapper h1 {
+  margin-left: 200px;
+  max-width: 629px;
+  font-family: Bebas Neue;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+.hero .comrades_wrapper .text_wrapper .hand_wrapper {
+  margin-top: 169px;
+}
+.hero .comrades_wrapper .text_wrapper .hand_wrapper .hand {
+  margin-left: 58px;
+}
+.hero .card {
+  margin: 640px auto 0 auto;
+}
+.hero .Lenin {
+  overflow: hidden;
+  transform: -100px;
+}
+.hero .LeninShow {
+  transform: translateY(-200px);
+  transition: transform 500ms ease;
+}
+
+/*# sourceMappingURL=hero.css.map */

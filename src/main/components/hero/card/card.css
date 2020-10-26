@@ -1,0 +1,84 @@
+.card {
+  max-width: 1440px;
+  background: #f5f5f5 no-repeat;
+  background-image: url("background_tram_with.png");
+  background-position: left 30% bottom 100%;
+}
+.card .nav {
+  display: flex;
+  padding: 30px 70px 0 70px;
+  align-items: center;
+}
+.card .nav img {
+  margin-right: auto;
+  margin-left: 70px;
+  width: 64px;
+  height: 56px;
+}
+.card .nav a {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 100px;
+}
+.card .description {
+  display: flex;
+  margin: 200px auto 0 auto;
+}
+.card .description p {
+  margin-left: auto;
+  margin-right: 200px;
+  max-width: 524px;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.card .description p::first-letter {
+  float: left;
+  padding: 10px 5px 5px 5px;
+  font-size: 48px;
+  line-height: 64px;
+}
+.card .images {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-bottom: 1px solid #ff6f61;
+  position: relative;
+}
+.card .images .train {
+  margin-bottom: -40px;
+}
+.card .images::after {
+  position: absolute;
+  left: 49.5%;
+  transform: rotate(-50deg) translateY(250px);
+  content: " ";
+  background: #ff6f61;
+  width: 1px;
+  height: 200px;
+}
+.card .images::before {
+  position: absolute;
+  left: 54.6%;
+  transform: rotate(50deg) translateY(250px);
+  content: " ";
+  background: #ff6f61;
+  width: 1px;
+  height: 200px;
+}
+.card .LuckyTicketLogo {
+  margin: 44px 89px 0 auto;
+}
+
+/*# sourceMappingURL=card.css.map */
