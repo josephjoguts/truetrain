@@ -5,8 +5,14 @@ import Header from "src/header";
 import LuckyTicketLogo from "src/components/lucky_ticket_logo";
 import Hero from "./main/components/hero";
 import Hero_card from "./main/components/hero/card";
+import SpeedMeter from "./components/speedmeter";
+import SpeedCard from "./main/components/next_station/cards/speed_card";
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <SpeedCard />
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,16 @@
+.SpeedMeter {
+  position: relative;
+  width: 224px;
+  .pointer {
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    transform-origin: 12px 8px;
+    transition: transform 500ms ease-in-out;
+    transform: rotate(18deg);
+  }
+  .pointer_jump {
+    transform: rotate(-50deg);
+    transition: transform 400ms ease-in-out;
+  }
+}

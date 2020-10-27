@@ -11,13 +11,6 @@ class Hero_card extends React.Component<any, any> {
     const background = require("src/main/components/hero/card/background_tram_with.png");
     return (
       <div className={"hero__card card"}>
-        <nav className={"card__nav nav"}>
-          <img src={logo} />
-          <a href={""}>Metrotram</a>
-          <a href={""}>Hystory</a>
-          <a href={""}>Technique</a>
-          <a href={""}>Stations</a>
-        </nav>
         <div className={"card__description description"}>
           <p>
             At first, it is customary to say " welcome!". So, welcome to the
