@@ -1,0 +1,79 @@
+.SpeedCard {
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+  background: #f5f5f5;
+  max-width: 1440px;
+  padding-top: 32px;
+}
+.SpeedCard .logo {
+  padding-left: 72px;
+}
+.SpeedCard .content_wrapper {
+  position: relative;
+  padding-left: 72px;
+  display: flex;
+  margin-top: 60px;
+  max-width: 1440px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ff6f61;
+}
+.SpeedCard .content_wrapper .speedmeter_wrapper {
+  max-width: 475px;
+}
+.SpeedCard .content_wrapper .speedmeter_wrapper p {
+  position: relative;
+  margin-top: 60px;
+  padding: 0;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-right: -230px;
+  z-index: 2;
+  color: #333333;
+}
+.SpeedCard .content_wrapper .speedmeter_wrapper p::first-letter {
+  float: left;
+  padding: 10px 5px 5px 5px;
+  font-size: 48px;
+  line-height: 64px;
+}
+.SpeedCard .content_wrapper .arc {
+  z-index: 1;
+  flex-shrink: 0;
+}
+.SpeedCard .content_wrapper h1 {
+  font-family: Bebas Neue;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5f60e5;
+  transform: rotate(-90deg);
+}
+.SpeedCard .content_wrapper::after {
+  position: absolute;
+  left: 35%;
+  transform: translateY(350px) rotate(30deg);
+  content: " ";
+  background: #ff6f61;
+  width: 1px;
+  height: 200px;
+}
+.SpeedCard .content_wrapper::before {
+  position: absolute;
+  left: 76.5%;
+  transform: translateY(350px) rotate(-30deg);
+  content: " ";
+  background: #ff6f61;
+  width: 1px;
+  height: 200px;
+}
+.SpeedCard .LuckyTicketLogo {
+  margin: 50px 38px 50px auto;
+  padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=speed_card.css.map */
