@@ -18,6 +18,8 @@
   align-items: center;
 }
 .nextStation .nextStation_content h1 {
+  transition: transform 1s;
+  transform: translateY(300px);
   max-width: 740px;
   font-family: Bebas Neue;
   font-size: 96px;
