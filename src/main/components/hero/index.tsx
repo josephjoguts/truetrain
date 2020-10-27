@@ -5,31 +5,35 @@ import Hero_card from "./card";
 class Hero extends React.Component<any, any> {
   isVisible(el: Element | null) {
     if (el != null) {
-      return (
-        el.getBoundingClientRect().top +
-          el.getBoundingClientRect().height / 2 <=
-        window.innerHeight
-      );
+      return el.getBoundingClientRect().top + 100 <= window.innerHeight;
     }
   }
-  showLenin() {
+  handleScroll() {
     const lenin = document.querySelector(".Lenin");
     if (this.isVisible(lenin)) {
       if (lenin != null) {
-        console.log(lenin);
+        console.log(window.innerHeight);
         lenin.classList.add("LeninShow");
+      }
+    }
+    const comrades = document.querySelector(".hero .text_wrapper h1");
+    if (comrades != null) {
+      let htmlComrades = comrades as HTMLElement;
+      if (this.isVisible(document.querySelector(".hero"))) {
+        htmlComrades.style.display = "block";
+        htmlComrades.style.transform = "translateY(0)";
       }
     }
   }
   constructor(props: any) {
     super(props);
-    this.showLenin = this.showLenin.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
   componentDidMount() {
-    document.addEventListener("scroll", this.showLenin);
+    document.addEventListener("scroll", this.handleScroll);
   }
   componentWillUnmount() {
-    document.removeEventListener("scroll", this.showLenin);
+    document.removeEventListener("scroll", this.handleScroll);
   }
 
   render() {
@@ -50,6 +54,7 @@ class Hero extends React.Component<any, any> {
           </div>
         </div>
         <Hero_card />
+
         <img src={lenin} className={"Lenin"} />
       </div>
     );

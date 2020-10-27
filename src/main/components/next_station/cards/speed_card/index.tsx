@@ -19,7 +19,6 @@ class SpeedCard extends React.Component<any, any> {
               the same.
             </p>
           </div>
-          <img className={"arc"} src={lArc} />
           <h1>speed 56 км/h</h1>
         </div>
         <LuckyTicketLogo />

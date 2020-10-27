@@ -21,6 +21,8 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #f5f5f5;
+        transition: transform 1s;
+        transform: translateY(300px);
       }
       .hand_wrapper {
         margin-top: 169px;
@@ -31,6 +33,7 @@
     }
   }
   .card {
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
     margin: 640px auto 0 auto;
   }
   .Lenin {

@@ -1,8 +1,9 @@
 .SpeedCard {
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
-  background: #f5f5f5;
+  background: #f5f5f5 url("./background.png") no-repeat bottom;
   max-width: 1440px;
   padding-top: 32px;
+  height: 900px;
   .logo {
     padding-left: 72px;
   }
@@ -12,9 +13,9 @@
     display: flex;
     margin-top: 60px;
     max-width: 1440px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #ff6f61;
+
     .speedmeter_wrapper {
       max-width: 475px;
       p {
@@ -39,10 +40,6 @@
         line-height: 64px;
       }
     }
-    .arc {
-      z-index: 1;
-      flex-shrink: 0;
-    }
     h1 {
       font-family: Bebas Neue;
       font-size: 72px;
@@ -50,31 +47,13 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: #5f60e5;
-
+      width: 400px;
       transform: rotate(-90deg);
     }
   }
-  .content_wrapper::after {
-    position: absolute;
-    left: 35%;
-    transform:translateY(350px) rotate(30deg);
-    content: " ";
-    background: #ff6f61;
-    width: 1px;
-    height: 200px;
-  }
-  .content_wrapper::before {
-    position: absolute;
-    left: 76.5%;
-    transform: translateY(350px)rotate(-30deg);
 
-    content: " ";
-    background: #ff6f61;
-    width: 1px;
-    height: 200px;
-  }
   .LuckyTicketLogo {
-    margin: 50px 38px 50px auto;
+    margin: 220px 89px 50px auto;
     padding-bottom: 30px;
   }
 }

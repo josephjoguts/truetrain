@@ -1,0 +1,31 @@
+.nextStation {
+  background: #ECECEC;
+}
+.nextStation .TrainCard {
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+  position: relative;
+  margin: -100px auto 0 auto;
+  z-index: 1;
+}
+.nextStation .SpeedCard {
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+  margin: 282px auto 0 auto;
+}
+.nextStation .nextStation_content {
+  margin-top: 380px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nextStation .nextStation_content h1 {
+  max-width: 740px;
+  font-family: Bebas Neue;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* black */
+  color: #333333;
+}
+
+/*# sourceMappingURL=next_station.css.map */
