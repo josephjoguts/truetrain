@@ -1,10 +1,7 @@
-.card {
+.RedCard {
+  background: #ff6f61 url("background.png") no-repeat bottom;
   max-width: 1440px;
   height: 900px;
-  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
-  background: #f5f5f5 no-repeat;
-  background-image: url("background_tram_with.png");
-  background-position: left 30% bottom 100%;
   .nav {
     display: flex;
     padding: 30px 70px 0 70px;
@@ -27,13 +24,21 @@
       margin-right: 100px;
     }
   }
-  .description {
+  .content_wrapper {
     display: flex;
-    margin: 200px auto 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    h1 {
+      max-width: 600px;
+      font-family: Bebas Neue;
+      font-size: 72px;
+      line-height: 86px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
     p {
-      margin-left: auto;
-      margin-right: 200px;
-      max-width: 524px;
+      max-width: 470px;
       font-family: PT Serif;
       font-style: normal;
       font-weight: normal;
@@ -49,22 +54,7 @@
       line-height: 64px;
     }
   }
-  .images {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    position: relative;
-    .train {
-      flex-shrink: 0;
-
-    }
-    .people {
-      flex-shrink: 0;
-      margin-top: -70px;
-    }
-  }
   .LuckyTicketLogo {
-    margin: 44px 89px 10px auto;
+    margin: 238px 80px 0 auto;
   }
 }

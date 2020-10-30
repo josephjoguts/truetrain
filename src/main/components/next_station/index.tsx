@@ -22,6 +22,7 @@ class NextStation extends React.Component<any, any> {
       if (wrapper != null) {
         if (this.isVisible(wrapper)) {
           text.style.transform = "translate(0)";
+          text.style.animation = "textAnimation 500ms 1";
         }
       }
     }

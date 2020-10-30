@@ -1,0 +1,54 @@
+.footer {
+  background: #ececec;
+}
+.footer .LeninCard {
+  margin: 0 auto 0 auto;
+  transform: translateY(-300px);
+}
+.footer .Traktorzavod {
+  margin: 0 auto;
+}
+.footer .HistoryCard {
+  margin: 300px auto 0 auto;
+}
+.footer .image_wrapper {
+  margin-top: 400px;
+  position: relative;
+}
+.footer .image_wrapper h1 {
+  position: absolute;
+  max-width: 700px;
+  font-family: Bebas Neue;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+  left: 10%;
+  top: 60%;
+  transition: top 1s;
+}
+.footer .image_wrapper img {
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,64 @@
+.TechniqueCard {
+  width: 1440px;
+  min-height: 900px;
+  background: #f5f5f5 url("./background.png") no-repeat;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+}
+.TechniqueCard .nav {
+  display: flex;
+  padding: 30px 70px 0 70px;
+  align-items: center;
+}
+.TechniqueCard .nav .logo {
+  margin-right: auto;
+  margin-left: 70px;
+  width: 64px;
+  height: 56px;
+}
+.TechniqueCard .nav a {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 100px;
+}
+.TechniqueCard .text_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+.TechniqueCard .text_wrapper p {
+  max-width: 524px;
+  position: relative;
+  margin-top: 60px;
+  padding: 0;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-right: -230px;
+  z-index: 2;
+  color: #333333;
+}
+.TechniqueCard .text_wrapper p::first-letter {
+  float: left;
+  padding: 10px 5px 5px 5px;
+  font-size: 48px;
+  line-height: 64px;
+}
+.TechniqueCard .image_wrapper {
+  margin-top: 110px;
+  margin-left: -300px;
+}
+.TechniqueCard .LuckyTicketLogo {
+  margin: 1px 80px 0 auto;
+}
+
+/*# sourceMappingURL=technique_card.css.map */

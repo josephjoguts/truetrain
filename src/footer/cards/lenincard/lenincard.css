@@ -1,0 +1,92 @@
+.LeninCard {
+  max-width: 1440px;
+  min-height: 900px;
+  background: #ffffff;
+  padding: 12px;
+  /* shad */
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
+}
+.LeninCard .content_wrapper {
+  max-width: 1404px;
+  min-height: 814px;
+  padding-top: 15px;
+  margin: 10px auto;
+  background: #ff6f61 url("./background.png") no-repeat bottom;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.LeninCard .content_wrapper .nav {
+  display: flex;
+  padding: 0 70px 0 70px;
+  align-items: start;
+  border-bottom: 1px solid black;
+}
+.LeninCard .content_wrapper .nav .border {
+  width: 1px;
+  height: 200px;
+  margin-top: -16px;
+  background: black;
+}
+.LeninCard .content_wrapper .nav .logo {
+  margin-right: auto;
+  margin-left: 70px;
+  width: 64px;
+  height: 56px;
+}
+.LeninCard .content_wrapper .nav a {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.LeninCard .content_wrapper .nav .text {
+  margin-top: 12px;
+}
+.LeninCard .content_wrapper .text_wrapper {
+  margin: 88px 120px;
+}
+.LeninCard .content_wrapper .text_wrapper h1 {
+  font-family: Bebas Neue;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.LeninCard .content_wrapper .text_wrapper p {
+  max-width: 524px;
+  position: relative;
+  margin-top: 60px;
+  padding: 0;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-left: 50px;
+  z-index: 2;
+  color: #333333;
+}
+.LeninCard .content_wrapper .text_wrapper p::first-letter {
+  float: left;
+  padding: 10px 5px 5px 5px;
+  font-size: 48px;
+  line-height: 64px;
+}
+.LeninCard .loading {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.LeninCard .LuckyTicketLogo {
+  margin: -30px 80px 0 auto;
+}
+
+/*# sourceMappingURL=lenincard.css.map */

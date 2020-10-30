@@ -1,15 +1,13 @@
-.card {
-  max-width: 1440px;
-  height: 900px;
+.TechniqueCard {
+  width: 1440px;
+  min-height: 900px;
+  background: #f5f5f5 url("./background.png") no-repeat;
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
-  background: #f5f5f5 no-repeat;
-  background-image: url("background_tram_with.png");
-  background-position: left 30% bottom 100%;
   .nav {
     display: flex;
     padding: 30px 70px 0 70px;
     align-items: center;
-    img {
+    .logo {
       margin-right: auto;
       margin-left: 70px;
       width: 64px;
@@ -27,21 +25,27 @@
       margin-right: 100px;
     }
   }
-  .description {
+  .text_wrapper {
     display: flex;
-    margin: 200px auto 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
     p {
-      margin-left: auto;
-      margin-right: 200px;
       max-width: 524px;
+      position: relative;
+      margin-top: 60px;
+      padding: 0;
       font-family: PT Serif;
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
       line-height: 29px;
       letter-spacing: 0.05em;
-      color: #000000;
+      margin-right: -230px;
+      z-index: 2;
+      color: #333333;
     }
+
     p::first-letter {
       float: left;
       padding: 10px 5px 5px 5px;
@@ -49,22 +53,11 @@
       line-height: 64px;
     }
   }
-  .images {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    position: relative;
-    .train {
-      flex-shrink: 0;
-
-    }
-    .people {
-      flex-shrink: 0;
-      margin-top: -70px;
-    }
+  .image_wrapper {
+    margin-top: 110px;
+    margin-left: -300px;
   }
   .LuckyTicketLogo {
-    margin: 44px 89px 10px auto;
+    margin: 1px 80px 0 auto;
   }
 }

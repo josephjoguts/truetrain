@@ -22,6 +22,7 @@ class Hero extends React.Component<any, any> {
       if (this.isVisible(document.querySelector(".hero"))) {
         htmlComrades.style.display = "block";
         htmlComrades.style.transform = "translateY(0)";
+        htmlComrades.style.animation = "textAnimation 500ms 1";
       }
     }
   }

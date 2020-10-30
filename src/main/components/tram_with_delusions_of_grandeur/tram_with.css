@@ -1,0 +1,59 @@
+.TramWith {
+  background: #333333;
+  margin-top: 500px;
+  padding-bottom: 500px;
+}
+.TramWith .phones_wrapper {
+  display: flex;
+  justify-content: space-around;
+  transform: translateY(100px);
+  transition: transform 1s;
+}
+.TramWith .RedCard {
+  margin: 300px auto 0 auto;
+}
+.TramWith .image_wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+.TramWith .image_wrapper img {
+  display: block;
+  margin: 0 auto;
+}
+.TramWith .image_wrapper h1 {
+  position: absolute;
+  max-width: 701px;
+  font-family: Bebas Neue;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ff6f61;
+  bottom: 0;
+  left: 3%;
+  transform: translateY(600px);
+  transition: transform 1s;
+}
+.TramWith .TechniqueCard {
+  margin: 0 auto;
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=tram_with.css.map */

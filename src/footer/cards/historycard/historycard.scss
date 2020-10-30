@@ -1,0 +1,55 @@
+.HistoryCard {
+  background: white url("./background.png") no-repeat;
+  background-position: 0 30%;
+  /* light */
+  max-width: 1440px;
+  min-height: 900px;
+
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+  .nav {
+    display: flex;
+    padding: 30px 70px 0 70px;
+    align-items: center;
+    .logo {
+      margin-right: auto;
+      margin-left: 70px;
+      width: 64px;
+      height: 56px;
+    }
+    a {
+      font-family: PT Serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.05em;
+      color: #000000;
+      text-decoration: none;
+      margin-right: 100px;
+    }
+  }
+  p {
+    max-width: 524px;
+    position: relative;
+    padding: 0;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    z-index: 2;
+    color: #333333;
+    margin: 500px auto 0 auto;
+  }
+
+  p::first-letter {
+    float: left;
+    padding: 10px 5px 5px 5px;
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .LuckyTicketLogo {
+    margin: 30px 80px 0 auto;
+  }
+}
