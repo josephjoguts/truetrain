@@ -17,6 +17,7 @@
     align-items: center;
     flex-wrap: wrap;
     h1 {
+
       transition: transform 1s;
       transform: translateY(300px);
       max-width: 740px;
@@ -26,6 +27,14 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: #333333;
+      @media (max-width: 1345px) {
+        font-size: 78px;
+      }
+    }
+    img {
+      @media (max-width: 918px) {
+        margin-left: -20%;
+      }
     }
   }
 }

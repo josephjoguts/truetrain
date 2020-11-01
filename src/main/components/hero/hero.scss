@@ -1,5 +1,8 @@
 .hero {
   margin-top: 220px;
+  @media (max-width: 1345px) {
+    margin-top: 500px;
+  }
   height: 3000px;
   background: #333333 url("hero_ellipse_background.svg") no-repeat left 50% top
     20%;
@@ -58,6 +61,12 @@
   .Lenin {
     overflow: hidden;
     transform: -100px;
+    @media (max-width: 950px) {
+      margin-left: -30%;
+    }
+    @media (max-width: 800px) {
+      display: none;
+    }
   }
   .LeninShow {
     transform: translateY(-200px);

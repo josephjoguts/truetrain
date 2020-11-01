@@ -1,11 +1,23 @@
 .header {
+  @media (max-width: 1345px) {
+    margin-bottom: 100px;
+  }
   .title {
     padding: 90px 132px;
     background: #f5f5f5;
     border-bottom: 2px solid black;
+    @media (max-width: 1345px) {
+      padding: 60px 0px;
+      border: none;
+      background: white;
+      margin-bottom: 100px;
+    }
     .title-clock-fix {
       display: flex;
       h1 {
+        @media (max-width: 1345px) {
+        margin: 0 10%;
+        }
         margin-top: 180px;
         max-width: 1182px;
         max-height: 288px;
@@ -15,6 +27,9 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #333333;
+        @media (max-width: 900px) {
+          font-size: 78px;
+        }
       }
       .clock {
         @media (max-width: 1345px) {
@@ -24,14 +39,15 @@
       }
     }
     .train {
+      @media (max-width: 1345px) {
+        display: none;
+      }
       position: relative;
       z-index: 1;
       margin-top: 350px;
       margin-bottom: -160px;
-      margin-left: 10%;
       overflow: hidden;
       @media (max-width: 1345px) {
-        margin-left: -30%;
       }
     }
     .train_ride {
@@ -40,6 +56,9 @@
     }
   }
   .phone {
+    @media (max-width: 1345px) {
+      display: none;
+    }
     z-index: 2;
     position: relative;
     z-index: 10;

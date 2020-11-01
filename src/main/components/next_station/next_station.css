@@ -29,6 +29,16 @@
   text-transform: uppercase;
   color: #333333;
 }
+@media (max-width: 1345px) {
+  .nextStation .nextStation_content h1 {
+    font-size: 78px;
+  }
+}
+@media (max-width: 918px) {
+  .nextStation .nextStation_content img {
+    margin-left: -20%;
+  }
+}
 
 @keyframes textAnimation {
   0% {

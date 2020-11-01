@@ -75,6 +75,12 @@
           letter-spacing: 0.1em;
           text-transform: uppercase;
           color: #5f60e5;
+          @media (max-width: 1400px) {
+            margin: 0 auto;
+          }
+          @media (max-width: 938px) {
+            font-size: 40px;
+          }
         }
 
         p {

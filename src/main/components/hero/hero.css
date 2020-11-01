@@ -4,6 +4,11 @@
   background: #333333 url("hero_ellipse_background.svg") no-repeat left 50% top 20%;
   max-width: 1920px;
 }
+@media (max-width: 1345px) {
+  .hero {
+    margin-top: 500px;
+  }
+}
 .hero .comrades_wrapper {
   display: flex;
   align-items: center;
@@ -62,6 +67,16 @@
 .hero .Lenin {
   overflow: hidden;
   transform: -100px;
+}
+@media (max-width: 950px) {
+  .hero .Lenin {
+    margin-left: -30%;
+  }
+}
+@media (max-width: 800px) {
+  .hero .Lenin {
+    display: none;
+  }
 }
 .hero .LeninShow {
   transform: translateY(-200px);
