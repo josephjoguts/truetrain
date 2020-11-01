@@ -1,7 +1,12 @@
 .TechniqueCard {
-  width: 1440px;
+  max-width: 1440px;
   min-height: 900px;
   background: #f5f5f5 url("./background.png") no-repeat;
+
+    @media (max-width: 1100px) {
+      background-position: top;
+    }
+
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
   .nav {
     display: flex;

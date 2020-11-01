@@ -17,6 +17,9 @@
         color: #333333;
       }
       .clock {
+        @media (max-width: 1345px) {
+          display: none;
+        }
         max-width: 432px;
       }
     }
@@ -27,6 +30,9 @@
       margin-bottom: -160px;
       margin-left: 10%;
       overflow: hidden;
+      @media (max-width: 1345px) {
+        margin-left: -30%;
+      }
     }
     .train_ride {
       transition: transform 5s ease;
@@ -41,5 +47,8 @@
     max-width: 411px;
     margin-top: -425px;
     margin-left: auto;
+    @media (max-width: 1345px) {
+      margin-left: 50%;
+    }
   }
 }

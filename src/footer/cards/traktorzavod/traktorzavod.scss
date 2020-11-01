@@ -55,9 +55,14 @@
 
     .content {
       display: flex;
+      @media (max-width: 1400px) {
+        justify-content: center;
+      }
       align-items: center;
-      img{
-
+      img {
+        @media (max-width: 1400px) {
+          display: none;
+        }
       }
       .text_wrapper {
         margin: 88px 120px;

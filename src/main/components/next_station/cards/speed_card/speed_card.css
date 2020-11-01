@@ -17,6 +17,11 @@
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 1024px) {
+  .SpeedCard .content_wrapper {
+    justify-content: space-between;
+  }
+}
 .SpeedCard .content_wrapper .speedmeter_wrapper {
   max-width: 475px;
 }
@@ -33,6 +38,11 @@
   margin-right: -230px;
   z-index: 2;
   color: #333333;
+}
+@media (max-width: 1024px) {
+  .SpeedCard .content_wrapper .speedmeter_wrapper p {
+    max-width: 500px;
+  }
 }
 .SpeedCard .content_wrapper .speedmeter_wrapper p::first-letter {
   float: left;
@@ -51,7 +61,7 @@
   transform: rotate(-90deg);
 }
 .SpeedCard .LuckyTicketLogo {
-  margin: 220px 89px 50px auto;
+  margin: 18% 89px 50px auto;
   padding-bottom: 30px;
 }
 

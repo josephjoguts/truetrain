@@ -45,7 +45,7 @@ class Hero extends React.Component<any, any> {
     return (
       <div className={"main__hero hero"}>
         <div className={"comrades_wrapper"}>
-          <img src={phone} />
+          <img src={phone} className={"phone"} />
           <div className={"text_wrapper"}>
             <h1>Comrades, please submit a ticket</h1>
             <div className={"hand_wrapper"}>

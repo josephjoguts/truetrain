@@ -15,10 +15,16 @@
     max-width: 1440px;
     justify-content: space-around;
     align-items: center;
+    @media (max-width: 1024px) {
+      justify-content: space-between;
+    }
 
     .speedmeter_wrapper {
       max-width: 475px;
       p {
+        @media (max-width: 1024px) {
+          max-width: 500px;
+        }
         position: relative;
         margin-top: 60px;
         padding: 0;
@@ -53,7 +59,7 @@
   }
 
   .LuckyTicketLogo {
-    margin: 220px 89px 50px auto;
+    margin: 18% 89px 50px auto;
     padding-bottom: 30px;
   }
 }

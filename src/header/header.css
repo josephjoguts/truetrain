@@ -20,6 +20,11 @@
 .header .title .title-clock-fix .clock {
   max-width: 432px;
 }
+@media (max-width: 1345px) {
+  .header .title .title-clock-fix .clock {
+    display: none;
+  }
+}
 .header .title .train {
   position: relative;
   z-index: 1;
@@ -27,6 +32,11 @@
   margin-bottom: -160px;
   margin-left: 10%;
   overflow: hidden;
+}
+@media (max-width: 1345px) {
+  .header .title .train {
+    margin-left: -30%;
+  }
 }
 .header .title .train_ride {
   transition: transform 5s ease;
@@ -40,6 +50,11 @@
   max-width: 411px;
   margin-top: -425px;
   margin-left: auto;
+}
+@media (max-width: 1345px) {
+  .header .phone {
+    margin-left: 50%;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

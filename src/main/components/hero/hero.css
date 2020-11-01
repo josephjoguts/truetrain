@@ -1,10 +1,7 @@
 .hero {
   margin-top: 220px;
   height: 3000px;
-  background: #333333;
-  background-image: url("hero_ellipse_background.svg");
-  background-repeat: no-repeat;
-  background-position: left 50% top 20%;
+  background: #333333 url("hero_ellipse_background.svg") no-repeat left 50% top 20%;
   max-width: 1920px;
 }
 .hero .comrades_wrapper {
@@ -12,11 +9,21 @@
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1300px) {
+  .hero .comrades_wrapper .phone {
+    display: none;
+  }
+}
 .hero .comrades_wrapper .text_wrapper {
   margin-left: 195px;
 }
+@media (max-width: 1300px) {
+  .hero .comrades_wrapper .text_wrapper {
+    margin: 0 auto;
+  }
+}
 .hero .comrades_wrapper .text_wrapper h1 {
-  margin-left: 200px;
+  margin-left: 5%;
   max-width: 629px;
   font-family: Bebas Neue;
   font-size: 96px;
@@ -27,11 +34,26 @@
   transition: transform 1s;
   transform: translateY(300px);
 }
+@media (max-width: 1300px) {
+  .hero .comrades_wrapper .text_wrapper h1 {
+    margin: 0 auto;
+  }
+}
 .hero .comrades_wrapper .text_wrapper .hand_wrapper {
   margin-top: 169px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .hero .comrades_wrapper .text_wrapper .hand_wrapper .hand {
   margin-left: 58px;
+}
+@media (max-width: 770px) {
+  .hero .comrades_wrapper .text_wrapper .hand_wrapper .hand {
+    transform: rotate(30deg);
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: 70px;
+  }
 }
 .hero .card {
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);

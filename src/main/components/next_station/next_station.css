@@ -1,5 +1,5 @@
 .nextStation {
-  background: #ECECEC;
+  background: #ececec;
 }
 .nextStation .TrainCard {
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
@@ -14,8 +14,9 @@
 .nextStation .nextStation_content {
   margin-top: 380px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 .nextStation .nextStation_content h1 {
   transition: transform 1s;
@@ -26,7 +27,6 @@
   line-height: 115px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  /* black */
   color: #333333;
 }
 

@@ -52,6 +52,16 @@
   display: flex;
   align-items: center;
 }
+@media (max-width: 1400px) {
+  .Traktorzavod .content_wrapper .content {
+    justify-content: center;
+  }
+}
+@media (max-width: 1400px) {
+  .Traktorzavod .content_wrapper .content img {
+    display: none;
+  }
+}
 .Traktorzavod .content_wrapper .content .text_wrapper {
   margin: 88px 120px;
 }

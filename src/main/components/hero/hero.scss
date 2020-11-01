@@ -1,19 +1,28 @@
 .hero {
   margin-top: 220px;
   height: 3000px;
-  background: #333333;
-  background-image: url("hero_ellipse_background.svg");
-  background-repeat: no-repeat;
-  background-position: left 50% top 20%;
+  background: #333333 url("hero_ellipse_background.svg") no-repeat left 50% top
+    20%;
   max-width: 1920px;
   .comrades_wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+    .phone {
+      @media (max-width: 1300px) {
+        display: none;
+      }
+    }
     .text_wrapper {
       margin-left: 195px;
+      @media (max-width: 1300px) {
+        margin: 0 auto;
+      }
       h1 {
-        margin-left: 200px;
+        @media (max-width: 1300px) {
+          margin: 0 auto;
+        }
+        margin-left: 5%;
         max-width: 629px;
         font-family: Bebas Neue;
         font-size: 96px;
@@ -26,8 +35,18 @@
       }
       .hand_wrapper {
         margin-top: 169px;
+        display: flex;
+        flex-wrap: wrap;
+        .ticket {
+        }
         .hand {
           margin-left: 58px;
+          @media (max-width: 770px) {
+            transform: rotate(30deg);
+            margin-left: 0;
+            margin-right: 30px;
+            margin-top: 70px;
+          }
         }
       }
     }
@@ -45,8 +64,14 @@
     transition: transform 500ms ease;
   }
 }
-@keyframes textAnimation{
-  0%{opacity: 0}
-  50%{opacity: 0.5}
-  100%{opacity: 1}
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
